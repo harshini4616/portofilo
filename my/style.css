@@ -10,6 +10,11 @@
 
 body {
   font-family: "Poppins", sans-serif;
+   background:url('1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 html {
@@ -20,6 +25,9 @@ html {
     box-shadow: 0 0 19px black;
 } #about{
     margin-top: 4rem;
+}
+.text-container span{
+   color: black;
 }
 
 p {
